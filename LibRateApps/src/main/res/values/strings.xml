@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rate_title">DO YOU LIKE OUR APP?</string>
+    <string name="rate_content">Give us a quick rating so we know if you like it?</string>
+    <string name="too_many_ads">Too many ads</string>
+    <string name="not_working">Not working</string>
+    <string name="other">Other</string>
+    <string name="send_feedback">Please leave a feedback to help us improve product</string>
+    <string name="submit">Submit</string>
+    <string name="later">Maybe later</string>
+    <string name="thanks_rating">Thank you for rating</string>
+    <string name="thanks_feedback">Thank for your feedback!</string>
+</resources>
