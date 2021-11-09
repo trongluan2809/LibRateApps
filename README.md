@@ -13,3 +13,4 @@ allprojects {
   dependencies {
 	        implementation 'com.github.trongluan2809:LibRateApps:Tag'
 	}
+  
