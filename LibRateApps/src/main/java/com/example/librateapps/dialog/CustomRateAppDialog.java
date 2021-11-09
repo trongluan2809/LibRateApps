@@ -89,7 +89,7 @@ public class CustomRateAppDialog extends Dialog {
                             Thread.sleep(300);
                             if (v1 == 0.0f)
                                 return;
-                            if (v1 <= 4.0) {
+                            if (v1 <= 3.0) {
                                 layoutFeedback.post(new Runnable() {
                                     @Override
                                     public void run() {
@@ -100,10 +100,10 @@ public class CustomRateAppDialog extends Dialog {
                                 layoutActions.post(new Runnable() {
                                     @Override
                                     public void run() {
-                                        layoutActions.setVisibility(v1 == 4 ? View.GONE : View.VISIBLE);
+                                        layoutActions.setVisibility(v1 == 3 ? View.GONE : View.VISIBLE);
                                     }
                                 });
-                                if (v1 == 4) {
+                                if (v1 == 3) {
                                     edtFeedback.post(new Runnable() {
                                         @Override
                                         public void run() {
